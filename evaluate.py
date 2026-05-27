@@ -33,7 +33,6 @@ for logger_name in logging.root.manager.loggerDict:
 
 camels_dir = os.path.join("D:\stream_data", "camels", "camels_us")
 camels = Camels(camels_dir)
-# gage_id = camels.read_site_info()["gauge_id"].values.tolist()
 gage_id = ["01013500"]
 
 assert all(x < y for x, y in zip(gage_id, gage_id[1:])), "gage_id should be sorted"
@@ -41,7 +40,6 @@ assert all(x < y for x, y in zip(gage_id, gage_id[1:])), "gage_id should be sort
 length = 7
 dim = 128
 scaler = "DapengScaler"
-# scaler = "StandardScaler"
 dr = 0.4
 seeds = 111
 ens = True
@@ -53,14 +51,13 @@ def config():
         f"camels_test", f"simplelstm_{scaler}_{dim}_{dr}_ens_{hru_delete}"
     )
 
-    # project_name = os.path.join("train_googleflood", "exp1_lstm_googlefloodwochina")
     config_data = default_config_file()
 
     # 填充测试所需的命令行参数
     args = cmd(
         train_mode=False,
-        stat_dict_file=r"A:\torchhydro\experiments\results\camels\simplelstm_DapengScaler_128_0.4_ens_02\dapengscaler_stat.json",
-        project_dir=r"A:\torchhydro\experiments",
+        stat_dict_file=r"torchhydro/experiments/results/camels/simplelstm_DapengScaler_128_0.4_ens_02/dapengscaler_stat.json",
+        project_dir=r"torchhydro/experiments",
         sub=project_name,
         source_cfgs={
             "source_name": "camels_us",
@@ -77,11 +74,9 @@ def config():
         },
         model_loader={
             "load_way": "pth",
-            "pth_path": f"A:\\torchhydro\experiments\\results\camels\simplelstm_DapengScaler_128_0.4_ens_{hru_delete}\\best_model.pth",
+            "pth_path": f"torchhydro/experiments/results/camels/simplelstm_DapengScaler_128_0.4_ens_{hru_delete}/best_model.pth",
         },
-        # gage_id=gage_id[5000:5009],
         gage_id=gage_id,
-        # gage_id=["21400800", "21401550", "21401300", "21401900"],
         batch_size=384,
         rs=seeds,
         ensemble=ens,
@@ -93,7 +88,6 @@ def config():
         var_t=["prcp", "dayl", "srad", "tmax", "tmin", "vp", "PET"],
         scaler_params={
             "prcp_norm_cols": [
-                # "streamflow_input",
                 "streamflow",
             ],
             "gamma_norm_cols": ["prcp", "PET"],
@@ -118,7 +112,6 @@ def config():
             "geol_porostiy",
             "geol_permeability",
         ],
-        # scaler="DapengScaler",
         scaler=scaler,
         var_out=["streamflow"],
         dataset="StreamflowDataset",
@@ -127,55 +120,21 @@ def config():
         train_period=["1980-01-01", "2004-12-31"],
         valid_period=["2005-01-01", "2009-12-31"],
         test_period=["2010-01-01", "2014-12-31"],
-        # train_period=["1980-01-01", "1981-12-31"],
-        # valid_period=["2010-01-01", "2013-12-31"],
-        # test_period=["2014-01-01", "2015-12-31"],
         loss_func="RMSESum",
-        # loss_param={
-        #     "loss_funcs": "RMSESum",
-        #     "data_gap": [0],
-        #     "device": [2],
-        #     "item_weight": [1],
-        # },
         opt="Adam",
         opt_param={"lr": 0.0001},
         lr_scheduler={
             "lr_factor": 0.95,
         },
-        # lr_scheduler={
-        #     epoch: (
-        #         0.5
-        #         if 1 <= epoch <= 5
-        #         else (
-        #             0.2
-        #             if 6 <= epoch <= 10
-        #             else (
-        #                 0.1
-        #                 if 11 <= epoch <= 15
-        #                 else 0.05 if 16 <= epoch <= 20 else 0.02
-        #             )
-        #         )
-        #     )
-        #     for epoch in range(1, 21)
-        # },
         which_first_tensor="sequence",
-        # calc_metrics=True,
         metrics=["NSE", "RMSE", "KGE", "Corr", "FHV", "FLV"],
         early_stopping=True,
         rolling=1,
-        # ensemble=True,
-        # ensemble_items={
-        #     "batch_sizes": [256, 512],
-        # },
         patience=2,
         model_type="Normal",
         valid_batch_mode="train",
-        # valid_batch_mode="test",
         evaluator={
-            # "eval_way": "once",
-            #  "stride": 0,
             "eval_way": "1pace",
-            # "pace_idx": -1,
             "pace_idx": -1,
         },
     )
