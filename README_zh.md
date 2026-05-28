@@ -10,59 +10,59 @@
       <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white&labelColor=4d4d4d" alt="arXiv">
     </a>
     <br>
-    English | <a href="./README_zh.md"><ins>简体中文</ins></a>
+    <a href="./README.md"><ins>English</ins></a> | 简体中文
   </p>
 </div>
 
-## Overview
+## 概览
 
-**AlphaEarth4PUB** is the official repository for the paper [Utilizing Earth Foundation Models to Enhance the Simulation Performance of Hydrological Models with AlphaEarth Embeddings](https://arxiv.org/abs/2601.01558).
+**AlphaEarth4PUB** 是论文 [Utilizing Earth Foundation Models to Enhance the Simulation Performance of Hydrological Models with AlphaEarth Embeddings](https://arxiv.org/abs/2601.01558) 的官方代码仓库。
 
-This project enhances hydrological model prediction using AlphaEarth embeddings derived from Earth foundation models.
+本项目基于 Earth foundation models 生成的 AlphaEarth embeddings，提升水文模型预测能力。
 
-## Environment Setup
+## 环境配置
 
-To run this project, install the following dependencies from their respective repositories:
+运行本项目需要从对应仓库安装以下依赖：
 
 - **torchhydro**: [https://github.com/OuyangWenyu/torchhydro](https://github.com/OuyangWenyu/torchhydro)
 - **hydrodataset**: [https://github.com/OuyangWenyu/hydrodataset](https://github.com/OuyangWenyu/hydrodataset)
 - **hydroutils**: [https://github.com/OuyangWenyu/hydroutils](https://github.com/OuyangWenyu/hydroutils)
 - **hydrodatasource**: [https://github.com/iHeadWater/hydrodatasource](https://github.com/iHeadWater/hydrodatasource)
 
-We recommend installing these dependencies in a virtual environment. You can clone each repository and run `pip install -e .`, or follow the installation guide in each repository.
+建议在虚拟环境中安装这些依赖。可以克隆每个仓库后运行 `pip install -e .`，也可以参考各仓库的安装说明。
 
-## Data
+## 数据
 
-The AlphaEarth dataset used in this project can be found on Zenodo:
+本项目使用的 AlphaEarth 数据集可从 Zenodo 获取：
 [https://zenodo.org/records/19159031](https://zenodo.org/records/19159031)
 
-Please download the data and ensure it is structured as required by the configuration.
+请下载数据，并按照配置文件要求组织数据目录结构。
 
-## Usage
+## 使用方法
 
-### Training
+### 训练
 
-To train the model, run:
+运行以下命令训练模型：
 
 ```bash
 python train.py
 ```
 
-### Evaluation
+### 评估
 
-To evaluate the trained model, run:
+运行以下命令评估训练好的模型：
 
 ```bash
 python evaluate.py
 ```
 
-## License
+## 许可证
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+本项目采用 MIT License，详细信息见 [LICENSE](LICENSE) 文件。
 
-## Citation
+## 引用
 
-If you use this repository or the AlphaEarth hydrological modeling workflow in your research, please cite:
+如果您在研究中使用了本仓库或 AlphaEarth 水文建模流程，请引用：
 
 ```bibtex
 @misc{qu2026utilizingearthfoundationmodels,
