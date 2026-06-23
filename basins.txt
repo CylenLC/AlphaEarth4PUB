@@ -1,0 +1,135 @@
+gauge_id,koppen_code,koppen_name,zone
+10249300,BWk,Cold Desert Climate,arid
+10244950,BSk,Cold Semi-Arid Climate,semi_arid
+9484000,BSk,Cold Semi-Arid Climate,semi_arid
+9484600,BSk,Cold Semi-Arid Climate,semi_arid
+10242000,BSk,Cold Semi-Arid Climate,semi_arid
+10172700,BSk,Cold Semi-Arid Climate,semi_arid
+2298123,Cfa,Humid Subtropical Climate,temperate
+10259200,Csa,Hot-Summer Mediterranean Climate,temperate
+2363000,Cfa,Humid Subtropical Climate,temperate
+14182500,Csb,Warm-Summer Mediterranean Climate,temperate
+3165000,Cfa,Humid Subtropical Climate,temperate
+3450000,Cfb,Temperate Oceanic Climate,temperate
+6468170,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+1510000,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+9066300,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+10336660,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+1552000,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+7208500,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+9065500,ET,Tundra Climate,alpine
+9035900,ET,Tundra Climate,alpine
+8190500,BSh,Hot Semi-Arid Climate,semi_arid
+9512280,BSk,Cold Semi-Arid Climate,semi_arid
+7226500,BSk,Cold Semi-Arid Climate,semi_arid
+10249300,BWk,Cold Desert Climate,arid
+3213700,Cfa,Humid Subtropical Climate,temperate
+8176900,Cfa,Humid Subtropical Climate,temperate
+3450000,Cfb,Temperate Oceanic Climate,temperate
+12040500,Cfb,Temperate Oceanic Climate,temperate
+12041200,Cfc,Subpolar Oceanic Climate,temperate
+10259000,Csa,Hot-Summer Mediterranean Climate,temperate
+11176400,Csa,Hot-Summer Mediterranean Climate,temperate
+14182500,Csb,Warm-Summer Mediterranean Climate,temperate
+12035000,Csb,Warm-Summer Mediterranean Climate,temperate
+1466500,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+6878000,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+3161000,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+5057200,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+9107000,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+6623800,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+10336660,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+14216500,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+12447390,Dsc,Continental Subarctic - Cold Dry Summer,continental
+13310700,Dsc,Continental Subarctic - Cold Dry Summer,continental
+6450500,Dwa,Humid Continental Hot Summers with Dry Winters,continental
+6332515,Dwb,Humid Continental Mild Summer with Dry Winters,continental
+9065500,ET,Tundra Climate,alpine
+8194200,BSh,Hot Semi-Arid Climate,semi_arid
+6447500,BSk,Cold Semi-Arid Climate,semi_arid
+6352000,BSk,Cold Semi-Arid Climate,semi_arid
+7197000,Cfa,Humid Subtropical Climate,temperate
+2108000,Cfa,Humid Subtropical Climate,temperate
+12043000,Cfb,Temperate Oceanic Climate,temperate
+3439000,Cfb,Temperate Oceanic Climate,temperate
+11224500,Csa,Hot-Summer Mediterranean Climate,temperate
+9505800,Csa,Hot-Summer Mediterranean Climate,temperate
+9494000,Csb,Warm-Summer Mediterranean Climate,temperate
+14303200,Csb,Warm-Summer Mediterranean Climate,temperate
+1118300,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+3173000,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+12144000,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+4256000,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+12383500,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+9047700,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+12411000,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+10336645,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+10173450,Dsc,Continental Subarctic - Cold Dry Summer,continental
+10348850,Dsc,Continental Subarctic - Cold Dry Summer,continental
+6453600,Dwa,Humid Continental Hot Summers with Dry Winters,continental
+6354000,Dwb,Humid Continental Mild Summer with Dry Winters,continental
+9510200,BSh,Hot Semi-Arid Climate,semi_arid
+6350000,BSk,Cold Semi-Arid Climate,semi_arid
+6339100,BSk,Cold Semi-Arid Climate,semi_arid
+2077200,Cfa,Humid Subtropical Climate,temperate
+7362100,Cfa,Humid Subtropical Climate,temperate
+12095000,Cfb,Temperate Oceanic Climate,temperate
+11151300,Csa,Hot-Summer Mediterranean Climate,temperate
+11383500,Csa,Hot-Summer Mediterranean Climate,temperate
+11476600,Csb,Warm-Summer Mediterranean Climate,temperate
+14137000,Csb,Warm-Summer Mediterranean Climate,temperate
+2011400,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+5458000,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+1162500,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+1139000,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+6622700,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+6037500,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+9404450,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+10336740,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+12488500,Dsc,Continental Subarctic - Cold Dry Summer,continental
+13313000,Dsc,Continental Subarctic - Cold Dry Summer,continental
+6464500,Dwa,Humid Continental Hot Summers with Dry Winters,continental
+6406000,Dwb,Humid Continental Mild Summer with Dry Winters,continental
+10166430,BSk,Cold Semi-Arid Climate,semi_arid
+9480000,BSk,Cold Semi-Arid Climate,semi_arid
+2298608,Cfa,Humid Subtropical Climate,temperate
+2369800,Cfa,Humid Subtropical Climate,temperate
+3460000,Cfb,Temperate Oceanic Climate,temperate
+11284400,Csa,Hot-Summer Mediterranean Climate,temperate
+10258000,Csa,Hot-Summer Mediterranean Climate,temperate
+14185000,Csb,Warm-Summer Mediterranean Climate,temperate
+12013500,Csb,Warm-Summer Mediterranean Climate,temperate
+1547700,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+1583500,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+1030500,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+3010655,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+6746095,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+6289000,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+14158500,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+13331500,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+13340600,Dsc,Continental Subarctic - Cold Dry Summer,continental
+11264500,Dsc,Continental Subarctic - Cold Dry Summer,continental
+10329500,BSk,Cold Semi-Arid Climate,semi_arid
+6441500,BSk,Cold Semi-Arid Climate,semi_arid
+2235200,Cfa,Humid Subtropical Climate,temperate
+8202700,Cfa,Humid Subtropical Climate,temperate
+12117000,Cfb,Temperate Oceanic Climate,temperate
+11299600,Csa,Hot-Summer Mediterranean Climate,temperate
+10263500,Csa,Hot-Summer Mediterranean Climate,temperate
+14222500,Csb,Warm-Summer Mediterranean Climate,temperate
+11522500,Csb,Warm-Summer Mediterranean Climate,temperate
+5593575,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+3338780,Dfa,Humid Continental Hot Summers with Year-round Precipitation,continental
+1350000,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+4024430,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+12375900,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+6224000,Dfc,Subarctic with Cool Summers and Year-round Precipitation,continental
+10310500,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+9378170,Dsb,Humid Continental Climate - Dry Cool Summer,continental
+14092750,Dsc,Continental Subarctic - Cold Dry Summer,continental
+13240000,Dsc,Continental Subarctic - Cold Dry Summer,continental
+1013500,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+4015330,Dfb,"Humid Continental Mild Summer, Wet All Year",continental
+6339500,BSk,Cold Semi-Arid Climate,semi_arid
+8155200,Cfa,Humid Subtropical Climate,temperate
+14138900,Csb,Warm-Summer Mediterranean Climate,temperate
