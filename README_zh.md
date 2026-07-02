@@ -9,6 +9,9 @@
     <a href="https://arxiv.org/abs/2601.01558" style="text-decoration: none; margin: 0 8px;">
       <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white&labelColor=4d4d4d" alt="arXiv">
     </a>
+    <a href="https://doi.org/10.5281/zenodo.21121620" style="text-decoration: none; margin: 0 8px;">
+      <img src="https://zenodo.org/badge/1099816246.svg" alt="DOI">
+    </a>
     <br>
     <a href="./README.md"><ins>English</ins></a> | 简体中文
   </p>
